@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Jonathan Lugo">
+    <meta name="Description" content="Asian Food Recommendations">
+    <meta name="Keywords" content="asian, food, cuisine, Recommendations, foody">
+    <link rel="stylesheet" href="css/asianFoods.css">
+    <title>Asian Foodex</title>
+</head>
+
+<body class="home">
+    <header class="header">
+        <div class="brand">
+            <span class="logo">🍱</span>
+            <h1>Asian Foodex</h1>
+        </div>
+        <p>Bold flavors, real culture, your kitchen</p>
+
+        <nav class="nav">
+            <a href="#backgroundInformation">About</a>
+            <a href="#foodSlideshow">Featured</a>
+            <a href="#regional-highlights">Regions</a>
+            <a href="#images">Meals</a>
+            <a href="#kitchen-tips">Tips</a>
+            <a href="#rec-heading">Quick picks</a>
+        </nav>
+
+        <button class="toggleTheme" id="toggleTheme">
+            <span class="theme-label">Theme</span>
+        </button>
+    </header>
+
+    <main id="main-content">
+        <section id="backgroundInformation" class="intro">
+            <h2 class="intro-heading">Why cook Asian at home?</h2>
+            <p>
+                If you are looking for bold flavors and culture in your day this is the right place for you.
+                Asian food is nourishing, offers comfort, and can satisfy your taste buds.
+                Many of the foods made are easier than you expect them to be to make.
+                Cooking these meals will save you a lot of money and allow you to customize flavors to your liking
+                giving you something new to experience. What are you waiting form turn your kitchen into a place
+                where you can explore and become creative with every meal.
+            </p>
+        </section>
+
+        <section class="slideshow-box">
+            <h2 id="slideshow-heading"</h2>
+            <div class="conveyor-frame">
+                <div class="conveyor-belt" >
+                    <span class="food-train">🚃🚃</span>
+                </div>
+                <div class="slideshow" id="foodSlideshow">
+                    <div class="slide active" data-index="0">
+                        <img src="imagesHomePage/sushi platter.jpg" alt="Assorted Sushi Rolls on a Platter" width="900" height="600">
+                    </div>
+                    <div class="slide" data-index="1">
+                        <img src="imagesHomePage/roe sushi roll.webp" alt="Roe Suhsi Roll" width="900" height="600">
+                    </div>
+                    <div class="slide" data-index="2">
+                        <img src="imagesHomePage/strawberry mochi.webp" alt="Strawberry Mochi" width="900" height="600">
+                    </div>
+                    <div class="slide" data-index="3">
+                        <img src="imagesHomePage/tonkotsu ramen.jpg" alt="Tonkotsu Ramen" width="900" height="600">
+                    </div>
+                    <div class="slide" data-index="4">
+                        <img src="imagesHomePage/korean food .avif" alt="Korean-Style Dinner" width="900" height="600">
+                    </div>
+                </div>
+                <div class="slideshow-dots"></div>
+            </div>
+        </section>
+
+        <section id="regional-highlights" class="highlights-header">
+            <h2>Regional flavor highlights</h2>
+            <p class="section">A quick tour of tastes where each card links ideas to the meal pages.</p>
+            <div class="highlights-grid">
+                <section class="highlight-card">
+                    <img src="imagesHomePage/dim sum.jpg" alt="Dim Sum" width="500" height="333">
+                    <h3>East Asia</h3>
+                    <p>Dumplings, soy, and tea - smoked flavors — great for <a href="breakfast.html">breakfast</a> or <a href="lunch.html">lunch</a>.</p>
+                </section>
+                <section class="highlight-card">
+                    <img src="imagesHomePage/pho.jpg" alt="Pho" width="500" height="333">
+                    <h3>Southeast Asia</h3>
+                    <p>Lime, fish sauce, and chiles — think <a href="lunch.html">pho</a>-style bowls and fresh herbs.</p>
+                </section>
+                <section class="highlight-card">
+                    <img src="imagesHomePage/japchae.webp" alt="Japchae" width="500" height="333">
+                    <h3>Korea & Japan</h3>
+                    <p>Grill, braise, and pickle — ideal for <a href="dinner.html">dinner</a> spreads and sharing.</p>
+                </section>
+            </div>
+        </section>
+
+        <section id="images" class="pickMeal-title">
+            <h2 id="meal-heading">Pick a meal</h2>
+            <p class="section">Hover for a taste of what is inside and click to open full recommendations.</p>
+            <div class="conveyor-middle">
+                <div class="conveyor-track-movement" aria-hidden="true"></div>
+                <div class="meal-images-position">
+                    <a href="breakfast.html" class="meal-card-images">
+                        <img src="imagesHomePage/Jpn Pancakes.webp" alt="Japanese Pancakes" width="600" height="400">
+                        <span class="meal-card-title">Breakfast</span>
+                        <span class="meal-card-overlay">
+                            <span class="meal-card-desc">Congee, dim sum, fluffy Japanese pancakes—start the day with comfort and variety.</span>
+                        </span>
+                    </a>
+                    <a href="lunch.html" class="meal-card-images">
+                        <img src="imagesHomePage/bibimbap.jpg" alt="Bibimbap" width="600" height="400" loading="lazy">
+                        <span class="meal-card-title">Lunch</span>
+                        <span class="meal-card-overlay">
+                            <span class="meal-card-desc">Noodles, rice bowls, and fresh rolls—midday fuel with bold broths and bright herbs.</span>
+                        </span>
+                    </a>
+                    <a href="dinner.html" class="meal-card-images">
+                        <img src="imagesHomePage/stir fry.webp" alt="Various Stir Fry Dishes" width="600" height="400">
+                        <span class="meal-card-title">Dinner</span>
+                        <span class="meal-card-overlay">
+                            <span class="meal-card-desc">Grilled meats, stir-fries, and shared plates—perfect for slowing down and savoring.</span>
+                        </span>
+                    </a>
+                    <a href="dessert.html" class="meal-card-images">
+                        <img src="imagesHomePage/hanami-dango.jpg" alt="Hanami Dango" width="600" height="400">
+                        <span class="meal-card-title">Dessert</span>
+                        <span class="meal-card-overlay">
+                            <span class="meal-card-desc">Mochi, matcha, red bean—sweet endings that stay light and memorable.</span>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="kitchen-tips" class="tips-section" >
+            <h2 id="tips-heading">Kitchen tips</h2>
+            <p class="section">Click a question to expand for suggestions when cooking.</p>
+            <div id="kitchenTips">
+                <div class="tips-item">
+                    <button type="button" class="tips-trigger-design"  aria-controls="acc-panel-1">
+                        How do I build depth without a long simmer?
+                    </button>
+                    <div class="tips-panel-dropdown-description" id="acc-panel-1" hidden>
+                        <p>Toast aromatics, add a spoon of miso or soy, and finish with a splash of rice vinegar or lime. A short fry builds serious flavor.</p>
+                    </div>
+                </div>
+                <div class="tips-item">
+                    <button type="button" class="tips-trigger-design" aria-controls="acc-panel-2" >
+                        What is one pantry upgrade worth it?
+                    </button>
+                    <div class="tips-panel-dropdown-description" id="acc-panel-2" hidden>
+                        <p>A good toasted sesame oil: use it at the end of stir-fries and soups so the aroma stays bright.</p>
+                    </div>
+                </div>
+                <div class="tips-item">
+                    <button type="button" class="tips-trigger-design"  aria-controls="acc-panel-3">
+                        How do I keep noodles from clumping?
+                    </button>
+                    <div class="tips-panel-dropdown-description" id="acc-panel-3" hidden>
+                        <p>Rinse if the recipe says so, toss with a tiny bit of oil if serving cold, and add to broth at the last second when eating hot.</p>
+                    </div>  
+                </div>
+            </div>
+        </section>
+
+        <section id="rec-heading" class="recommendations-alignment">
+            <h2>Top Picks</h2>
+            <ul class="rec-list">
+                <li><strong>Pho or ramen</strong> — Build flavor in the broth; toppings make it yours.</li>
+                <li><strong>Homemade dumplings</strong> — Freeze extras; they cook straight from frozen.</li>
+                <li><strong>Kimchi fried rice</strong> — Use leftover rice and jarred kimchi for a ten-minute win.</li>
+                <li><strong>Miso soup</strong> — Warm, savory, and ready in minutes beside any main.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div>
+            <div class="loop-inner">
+                <span>Ramen</span><span>Sushi</span><span>Bao</span><span>Pho</span><span>Bibimbap</span><span>Pad Thai</span><span>Dim Sum</span><span>Mochi</span><span>Matcha</span><span>Yakitori</span><span>Tom Yum</span><span>Katsu</span>
+                <span>Ramen</span><span>Sushi</span><span>Bao</span><span>Pho</span><span>Bibimbap</span><span>Pad Thai</span><span>Dim Sum</span><span>Mochi</span><span>Matcha</span><span>Yakitori</span><span>Tom Yum</span><span>Katsu</span>
+            </div>
+        </div>
+    </footer>
+    <script src="js/asianFoods.js"></script>
+</body>
+</html>
