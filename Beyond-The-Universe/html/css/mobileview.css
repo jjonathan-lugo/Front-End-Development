@@ -1,0 +1,70 @@
+@import "style.css";
+
+header {
+    height: auto;
+    padding: 10px 0;
+}
+
+/*Vertical navigation*/
+nav > ul {
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: unset;
+    grid-gap: unset;
+    gap: 8px;
+    margin: 10px auto;
+    padding: 0;
+    list-style: none;
+    align-items: center;
+}
+
+nav > ul > li {
+    width: 90%;
+    text-align: center;
+    padding: 8px 0;
+    background-color: rgba(9, 111, 158, 0.4);
+    border-radius: 6px;
+}
+
+/*Grid layout for sections*/
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    padding: 10px;
+}
+
+section, .body {
+    margin: 0;
+    padding: 10px;
+}
+
+/*Images fit within grid cells*/
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 10px auto;
+}
+
+/*Headings*/
+.section17-h2,
+.section2356-h2,
+.section410-h2,
+.section89-h2,
+#section11 > h2 {
+    font-size: 1rem;
+    word-break: break-word;
+    padding: 5px;
+}
+
+/*Body*/
+.sections-paragraph,
+.section-withlevels {
+    font-size: 0.9rem;
+    word-break: break-word;
+}
+
+h1 {
+    font-size: 1.2rem;
+}
