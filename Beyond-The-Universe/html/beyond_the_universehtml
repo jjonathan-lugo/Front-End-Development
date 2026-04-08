@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+
+<!--This is a basic project-->
+
+<html lang="en">
+
+<head>
+    <title>Beyond The Universe</title>
+    <meta name="Author" content="Jonathan Lugo">
+    <meta name="Description" content="About Parallel Universes">
+    <meta name="Keywords" content="parallel universes, movies, types, 
+    evidence proving, natural events, physicist">
+    <meta name="viewport" content="width=device-width, initial-scale-1.0">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css" media="only screen and (min-width: 481px)">
+    <link rel="stylesheet" href="css/mobileview.css" media="only screen and (max-width: 480px)">
+    <script src="beyond_the_universe.js" defer></script>
+    </body>
+
+</head>
+</head>
+
+<body>
+    <header id="top-page">
+        <nav>
+            <ul style="color:white">
+                <li><a href="#section1" style="color:white">Section 1</a></li>
+                <li><a href="#section2" style="color:white">Section 2</a></li>
+                <li><a href="#section3" style="color:white">Section 3</a></li>
+                <li><a href="#section4" style="color:white">Section 4</a></li>
+                <li><a href="#section5" style="color:white">Section 5</a></li>
+            </ul>
+            <ul style="color:white">
+                <li><a href="#section6" style="color:white">Section 6</a></li>
+                <li><a href="#section7" style="color:white">Section 7</a></li>
+                <li><a href="#section8" style="color:white">Section 8</a></li>
+                <li><a href="#section9" style="color:white">Section 9</a></li>
+                <li><a href="#section10" style="color:white">Section 10</a></li>
+                <li><a href="#section11" style="color:white">References</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div style="text-align:center">
+            <h1 id="main-title" class="title-box" style="color:white"><strong>Beyond The Universe</strong></h1>
+        </div>
+
+        <div id="fact-container" style="text-align: center; color: white; margin: 30px auto; max-width: 700px;">
+            <div id="showFacts"
+                style="border: 5px double white; padding: 20px; margin-bottom: 15px; font-family: 'Courier New', Courier, monospace;">
+                Click the button to reveal a random fact about the multiverse....
+            </div>
+            <button id="factButton" class="styled-select">Generate Fact</button>
+        </div>
+
+        <section id="section1">
+            <h2 class="section17-h2"><em>What is a Parallel Universe?</em></h2>
+            <nav>
+                <div class="section-slider">
+                    <button class="previous">&lt;</button>
+                    <a href="#top-page" class="showSection">TO TOP</a>
+                    <button class="next">&gt;</button>
+                </div>
+            </nav>
+            <p class="sections-paragraph">
+                A parallel universe is a hypothetical
+                reality that exists as the same as our own.
+
+                In physics a parallel universe is where all
+                physical laws are the same as those in our universe.
+
+                In science firction parallel universes are shown as
+                separate realities that are different from ours.
+
+                Quantum mechanics look for a reason to a phenomena
+                that can't be explained by physics and science likes
+                the existence of a parallel universe which has been
+                studied since the 1950s.
+            </p>
+            <!-- Simple img -->
+            <div class="image-container">
+                <img src="images1/Picture16.jpg" alt="Different Earth's repeating">
+            </div>
+
+        </section>
+
+        <section id="section2">
+            <h2 class="section2356-h2"><em>Movies/Shows that Reference Parallel Universes</em></h2>
+            <nav class="dropdown-container">
+                <select class="section-dropdown styled-select">
+                </select>
+            </nav>
+            <ul class="sections-paragraph">
+                <li>Everything Everywhere All at Once (2022)</li>
+                <li>Coraline (2009)</li>
+                <li>Spider-Man: No Way Home (2021)</li>
+                <li>Doctor Strange in the Multiverse of Madness (2022)</li>
+                <li>Ant-Man and the Wasp Quantumania (2023)</li>
+                <li>Another Earth (2011)</li>
+                <li>Star Trek (2009)</li>
+                <li>Loki (2021 - 2023)</li>
+                <li>What if? (2021 - 2024)</li>
+            </ul>
+        </section>
+
+        <section id="section3">
+            <h2 class="section2356-h2"><strong>Types of Parallel Universe (Part 1)</strong></h2>
+            <nav>
+                <div class="section-slider">
+                    <button class="previous">&lt;</button>
+                    <a href="#top-page" class="showSection">TO TOP</a>
+                    <button class="next">&gt;</button>
+                </div>
+            </nav>
+            <p class="sections-paragraph">
+                In 2003, MIT physicist Max Tegmark created a papaer called
+                "Ultimate Reality" explaining different parallel universes
+                in 4 levels.
+            </p>
+
+            <h3 style="color:darkblue"><strong>Level 1 Regions Beyond Cosmic Horizon</strong></h3>
+            <p class="section-withlevels">
+                Since our universe is infinite that consists of matter
+                throughout soace ut can be argued that another universe
+                exists that is the same as ours.
+            </p>
+
+            <h3 style="color:darkblue"><em>Level 2 Pocket Universes</em></h3>
+            <p class="section-withlevels">
+                Separate universes are formed creating a bubble
+                undergoing its own form of expansion under the
+                inflation theory which state that our universe
+                was created within unstable energy which expanded
+                the universe.
+            </p>
+
+            <h3 style="color:darkblue"><strong>Level 3 Many Worlds of Quantum Physics</strong></h3>
+            <p class="section-withlevels">
+                Every possible outcome of a certain event would be
+                manifest in a different parallel world.
+            </p>
+
+            <h3 style="color:darkblue"><em>Level 4 Mathematical Universes</em></h3>
+            <p class="section-withlevels">
+                All mathematical systems show a different
+                reality. It is somewhat the same as
+                level 2 but has different rules.
+            </p>
+            <div class="image-container">
+                <img src="images1/Picture10.png" alt="4 levels of parallel univeres" class="hover-img">
+                <div class="image-overlay">
+                    <p class="image-description">A visual representation of the four levels of parallel universes
+                        proposed by Max Tegmark.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="section4">
+            <h2 class="section410-h2"><em>Types of Parallel Universes (Part 2)</em></h2>
+            <nav class="dropdown-container">
+                <select class="section-dropdown styled-select">
+                </select>
+            </nav>
+            <p class="sections-paragraph">
+                In 2011, Brian Greene made a book called
+                "The Hidden Reality" where he would
+                class parallel universes.
+            </p>
+
+            <h3 style="color:darkblue"><strong>Level 1 Cyclic Multiverse</strong></h3>
+            <p class="section-withlevels">
+                Results from string theory where branes
+                (objects that extend in 1 or more spatial
+                dimensions) would collide creating a Big
+                Bang and making new universes.
+            </p>
+
+            <h3 style="color:darkblue"><em>Level 2 Brane Multiverse</em></h3>
+            <p class="section-withlevels">
+                String theory says there is a possibility that
+                our universe is a 3-dimensional brane while other
+                unniverses may have different dimensional brane form
+                0-9. This means that we are stuck in a single dimensionan
+                within a larger dimension in space.
+            </p>
+
+            <h3 style="color:darkblue"><strong>Level 3 Quantum Multiverse</strong></h3>
+            <p class="section-withlevels">
+                The Many-World Interpretation (MWI) of all outcomes
+                that can occur in different universes.
+            </p>
+
+            <h3 style="color:darkblue"><em>Level 4 Holographic Multiverse</em></h3>
+            <p class="section-withlevels">
+                A parallel world exists of our universe
+                that is just mirrored.
+            </p>
+            <div class="image-container">
+                <img src="images1/Picture11.jpg" alt="The Hidden Reailty Book by Brian Greene" class="hover-img">
+                <div class="image-overlay">
+                    <p class="image-description">Cover of "The Hidden Reality" by Brian Greene, exploring the
+                        multiverse.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="section5">
+            <h2 class="section2356-h2"><strong>Evidence Proving Parallel Universes (Part 1)</strong></h2>
+            <nav>
+                <div class="section-slider">
+                    <button class="previous">&lt;</button>
+                    <a href="#top-page" class="showSection">TO TOP</a>
+                    <button class="next">&gt;</button>
+                </div>
+            </nav>
+            <p class="sections-paragraph">
+                <strong>The Mainy Worlds Theory</strong> - In 1957 physicist Hugh
+                Everett created this thoery stating that there are
+                infinite possible universes and that everything that
+                could have happened occurred in another reality.
+            </p>
+
+            <p class="sections-paragraph">
+                <strong>Artifacts</strong> - London Hammer that existed 500 million
+                years ago and Antikythera Mechanism a stone computer
+                have been found which suggest these were brought into
+                a this world from another reality.
+            </p>
+            <div class="image-container">
+                <img src="images1/Picture3.jpg" alt="London Hammer" class="hover-img">
+                <div class="image-overlay">
+                    <p class="image-description">The London Hammer, an out-of-place artifact found embedded in ancient
+                        rock.</p>
+                </div>
+            </div>
+
+            <div class="image-container">
+                <img src="images1/Picture4.jpg" alt="Antikythera Mechanism" class="hover-img">
+                <div class="image-overlay">
+                    <p class="image-description">The Antikythera Mechanism, an ancient Greek analogue computer used to
+                        predict astronomical positions.</p>
+                </div>
+            </div>
+            <p class="sections-paragraph">
+                <strong>Case of Lerina Garcia</strong> - She woke up one morning and
+                nothing seemed familiar about her home, job, and friends
+                which could suggest that she went into a parallel dimension.
+            </p>
+
+            <p class="sections-paragraph">
+                <strong>Deja Vue</strong> - When you are put into a situation or do something
+                you get a feeling it happened before. There are other types of
+                this like Deja Vecu which is a feeling of knowing what will
+                happen and Alter Vu which a person remembers a past event
+                differently. These all suggest that the memories that are seen
+                may be from another version of you.
+            </p>
+            <div class="image-container">
+                <img src="images1/Picture12.jpg" alt="5th dimensional persepective visual" class="hover-img">
+                <div class="image-overlay">
+                    <p class="image-description">A visualization of a fifth-dimensional perspective on reality.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="section6">
+            <h2 class="section2356-h2"><em>Evidence Proving Parallel Universis (Part 2)</em></h2>
+            <nav class="dropdown-container">
+                <select class="section-dropdown styled-select">
+                </select>
+            </nav>
+            <p class="sections-paragraph">
+                <strong>Visitor from Taured</strong> - This occurred in 1954 when a mysterious
+                man landed in Tokyo with a passport of a place that doesn't exist he was charged
+                with having a fake passport. However, he siad it was a real place that is in
+                Europe and he even had bank statements. The strange thing is that he would vanish
+                from the hotel he was put int.
+            </p>
+            <div class="image-container">
+                <img src="images1/Picture5.jpg" alt="Passport of a person from Taured" class="hover-img">
+                <div class="image-overlay">
+                    <p class="image-description">A mysterious passport belonging to a man from the non-existent country
+                        of Taured.</p>
+                </div>
+            </div>
+            <p class="sections-paragraph">
+                <strong>Double Split Experiment</strong> - Quantum Mechanics found that the
+                interaction of particles can be seen from electrons and photons which can be
+                in multiple places at the same time (Superposition). The double split
+                experiment proved this which could suggest another universe exists.
+            </p>
+            <div class="image-container">
+                <img src="images1/Picture6.png" alt="Visual of a double split experiment" class="hover-img">
+                <div class="image-overlay">
+                    <p class="image-description">Diagram showing the results of the double-slit experiment,
+                        demonstrating wave-particle duality.</p>
+                </div>
+            </div>
+            <p class="sections-paragraph">
+                <strong>CERN (Large Hadron Collider)</strong> - Particle Physicists at CERN
+                have been using the collider to provide information about the universe when
+                are thrown at high speeds. This would measure how long particles vanished
+                to another dimension which suggest a parallel universe exists.
+            </p>
+            <div class="image-container">
+                <img src="images1/Picture7.jpg" alt="CERN Collider" class="hover-img">
+                <div class="image-overlay">
+                    <p class="image-description">The Large Hadron Collider at CERN is used to search for evidence of
+                        parallel universes by colliding particles at high speeds.</p>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="section7">
+            <h2 class="section17-h2"><strong>Natural Event shows Evidence of a Parallel Universe</strong></h2>
+            <nav>
+                <div class="section-slider">
+                    <button class="previous">&lt;</button>
+                    <a href="#top-page" class="showSection">TO TOP</a>
+                    <button class="next">&gt;</button>
+                </div>
+            </nav>
+            <p class="sections-paragraph">
+                The Big Bang caused cosmic inflation creating a fireball that started to
+                form molecules, stars, and galaxies. The Big Bang has influenced many
+                researchers that there are multiple universes.
+                A physicist Alexander Vilenkin would propose the Theory of Eternal
+                Infaltion which means that cosmic inflation didn't end but it continues
+                in other places forming a new universe and the bubbles can't touch one another.
+                If there is enough inflation to create another Big Bang then it can be observed that
+                a parallel universe will be created that would be forever separate.
+                Some physicists believe if a universe goes on indefinitely the building
+                blocks of matter (atoms, molecules, and substance) can rearrange themselves
+                infinitely in space but at some point the particles would repeat showing
+                that our lives may be repeated in another universe.
+            </p>
+            <div class="image-container">
+                <img src="images1/Picture9.jpg" alt="Enternal inflation and definition" class="hover-img">
+                <div class="image-overlay">
+                    <p class="image-description">Visualizing the theory of eternal inflation and the formation of bubble
+                        universes.</p>
+                </div>
+            </div>
+
+            <div class="image-container">
+                <img src="images1/Picture13.jpg" alt="Evidence of Cosmic Inflation Visual" class="hover-img">
+                <div class="image-overlay">
+                    <p class="image-description">Evidence and visualization of cosmic inflation after the Big Bang.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="section8">
+            <h2 class="section89-h2"><em>Support of Parallel Universe by Physicists</em></h2>
+            <nav class="dropdown-container">
+                <select class="section-dropdown styled-select">
+                </select>
+            </nav>
+            <p class="sections-paragraph">
+                Physicist Brian Greene in his book called "The Hidden Reality"
+                states, "Matter can arrange itself within an infinite universe.
+                Eventually, the matter has to repeat itself and arrange itself in similar ways."
+                This shows that if the universe is never ending it would consists of
+                infinite parallel universes.
+                Hugh Everett believes that a quantum object causes a split in the universe
+                where it is duplicated splitting one universe for all possible outcomes.
+                An Italian physicist Gabriele Veneziano who discovered string theory
+                states that we live in our own universe that exists with other universes
+                and that these different universes can be in contact.
+                Michio Kaku a physicist talked with a theoretical physicist Steven Weinberg.
+                Weinberg gave an example that shows a parallel universe may exist. He syas
+                to imagine yourself in the exact room where waves of electrons and atoms
+                vibrate hinting at an alternative reality but we just can't interact with
+                them as we can't vibrate constantly with them.
+            </p>
+            <div class="image-container">
+                <img src="images1/Picture17.jpg" alt="Physicist Michio Kaku" class="hover-img">
+                <div class="image-overlay">
+                    <p class="image-description">Physicist Michio Kaku, a prominent supporter of the multiverse theory.
+                    </p>
+                </div>
+            </div>
+
+            <div class="image-container">
+                <img src="images1/Picture18.jpg" alt="Physicist Brian Greene" class="hover-img">
+                <div class="image-overlay">
+                    <p class="image-description">Physicist Brian Greene, author of several books on string theory and
+                        the multiverse.</p>
+                </div>
+            </div>
+
+            <div class="image-container">
+                <img src="images1/Picture19.jpg" alt="Theory of Special Relativity" class="hover-img">
+                <div class="image-overlay">
+                    <p class="image-description">Diagram illustrating concepts related to Einstein's Theory of Special
+                        Relativity.</p>
+                </div>
+            </div>
+
+            <div class="image-container">
+                <img src="images1/Picture20.jpg" alt="Physicist Steven Weinberg" class="hover-img">
+                <div class="image-overlay">
+                    <p class="image-description">Nobel laureate Steven Weinberg, who used radio waves to explain
+                        parallel realities.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="section9">
+            <h2 class="section89-h2"><strong>Project Revealing a Parallel Universe</strong></h2>
+            <nav>
+                <div class="section-slider">
+                    <button class="previous">&lt;</button>
+                    <a href="#top-page" class="showSection">TO TOP</a>
+                    <button class="next">&gt;</button>
+                </div>
+            </nav>
+            <p class="sections-paragraph">
+                NASA would issue a program using Antarctic Impulsive Transient Antenna
+                (ANITA) that would be placed in Antarctica as it was a cold place with no
+                radio noise to manipulate its finding. This machine would be used to detect
+                radio waves when nuetrinos interact in an Antarctic ice shelf. From New
+                Scientists ANITA discovered signals not coming from space but from the
+                ground. This shows that particles are traveling back in time giving
+                evidence of a parallel universe.
+            </p>
+            <div class="image-container">
+                <img src="images1/Picture14.jpg" alt="NASA's Antarctic Impulsive Transient Antenna (ANITA)"
+                    class="hover-img">
+                <div class="image-overlay">
+                    <p class="image-description">NASA's Antarctic Impulsive Transient Antenna (ANITA) used to detect
+                        high-energy neutrinos.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="section10">
+            <h2 class="section410-h2"><em>Argument Against a Parallel Universe</em></h2>
+            <nav class="dropdown-container">
+                <select class="section-dropdown styled-select">
+                </select>
+            </nav>
+            <p class="sections-paragraph">
+                The NASA project ANITA discovered that particles are moving back which
+                was anti-climactic as the discovery was exaggerated. The website New
+                Scientists published about the ANITA project made claims they found
+                another universem, but it didn't say whether scientists found it but
+                just inferred it.
+                As the ANITA project detected nuetrinos coming from below the Earth
+                instead of space this led to confusion which may pay point to a
+                parallel world or it may just be a coincidence.
+                Many physicists have explored the topic of a parallel world through
+                books such as Brian Greene, Sean Carroll, and Michio Kaku. Within
+                those books, they have never admitted a parallel universe exists but
+                instead, they only use propositional logic called modus ponens (if X
+                suggest Y and X is true, then Y must also be true.)
+                Without any observable evidence of parallel univeres there is much doubt
+                about whether they exist.
+            </p>
+            <div class="image-container">
+                <img src="images1/Picture15.jpg" alt="Multiple bubble that represents different realities"
+                    class="hover-img">
+                <div class="image-overlay">
+                    <p class="image-description">An artistic representation of multiple bubble universes representing
+                        separate realities.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="section11">
+            <h2 style="color:white"><strong>References</strong></h2>
+            <nav>
+                <div class="section-slider">
+                    <button class="previous">&lt;</button>
+                    <a href="#top-page" class="showSection">TO TOP</a>
+                    <button class="next">&gt;</button>
+                </div>
+            </nav>
+            <ol class="sections-paragraph">
+                <li>
+                    Baker, T. (2017, April 11). <i>10 most compelling pieces of evidence that prove alternate realities
+                        are real.</i>
+                    WhatCulture.com. <a
+                        href="https://whatculture.com/offbeat/10-most-compelling-pieces-of-evidence-that-prove-alternate-realities-are-real">
+                        https://whatculture.com/offbeat/10-most-compelling-pieces-of-evidence-that-prove-alternate-realities-are-real</a>
+                </li>
+
+                <li>
+                    Stein, V., &amp; Dobrijevic, D. (2021, November 3). <i>Do parallel universes exist? we might live in
+                        a multiverse.</i>
+                    Space.com. <a href="https://www.space.com/32728-parallel-universes.html">
+                        https://www.space.com/32728-parallel-universes.html</a>
+                </li>
+
+                <li>
+                    Beeman, A. (2020, October 15). <i>NASA scientists discover possible evidence of a parallel
+                        universe.</i> Heavy.com.
+                    <a
+                        href="https://heavy.com/news/2020/05/nasa-finds-evidence-of-parallel-universe/#:~:text=The%20scientific%20understanding%20of%20the%20Big%20Bang%20Theory,several%20theories%20for%20alternate%20universes%2C%20including%20infinite%20universes">
+                        https://heavy.com/news/2020/05/nasa-finds-evidence-of-parallel-universe/</a>
+                </li>
+
+                <li>
+                    Greene, B. (2011, January 24). <i>A physicist explains why parallel universes may exist.</i> NPR.
+                    <a
+                        href="https://www.npr.org/2011/01/24/132932268/a-physicist-explains-why-parallel-universes-may-exist">
+                        https://www.npr.org/2011/01/24/132932268/a-physicist-explains-why-parallel-universes-may-exist</a>
+                </li>
+
+                <li>
+                    Clark, J. (2023, March 8). <i>Do parallel universes really exist?.</i> HowStuffWorks Science.
+                    <a href="https://science.howstuffworks.com/science-vs-myth/everyday-myths/parallel-universe.htm">
+                        https://science.howstuffworks.com/science-vs-myth/everyday-myths/parallel-universe.htm
+                    </a>
+                </li>
+
+                <li>
+                    Kaku, M. (2022, June 20). <i>In a parallel universe, another you.</i> The New York Times.
+                    <a href="https://www.nytimes.com/2022/06/20/special-series/michio-kaku-multiverse-reality.html">
+                        https://www.nytimes.com/2022/06/20/special-series/michio-kaku-multiverse-reality.html
+                    </a>
+                </li>
+
+                <li>
+                    <i>Could there be a parallel universe identical to our own?.</i> Big Think. (2021, September 29).
+                    <a href="https://bigthink.com/starts-with-a-bang/multiverse-identical-parallel-universe/">
+                        https://bigthink.com/starts-with-a-bang/multiverse-identical-parallel-universe/
+                    </a>
+                </li>
+
+                <li>
+                    Jones, A. Z. (2019, July 29). <i>What physicists mean by parallel universes.</i> ThoughtCo.
+                    <a href="https://www.thoughtco.com/types-of-parallel-universes-2698854">
+                        https://www.thoughtco.com/types-of-parallel-universes-2698854
+                    </a>
+                </li>
+
+                <li>
+                    McKeon, A. (2022, December 2). <i>The intersection of technology, Innovation &amp; Creativity.</i>
+                    Now.
+                    Powered by Northrop Grumman.
+                    <a href="https://now.northropgrumman.com/despite-the-hype-theres-no-proof-of-a-parallel-universe/">
+                        https://now.northropgrumman.com/despite-the-hype-theres-no-proof-of-a-parallel-universe/
+                    </a>
+                </li>
+
+                <li>
+                    Tegmark, M. (2014, February 4). <i>Are parallel universes unscientific nonsense? insider tips for
+                        criticizing the multiverse.</i> Scientific American Blog Network.
+                    <a
+                        href="https://blogs.scientificamerican.com/guest-blog/are-parallel-universes-unscientific-nonsense-insider-tips-for-criticizing-the-multiverse/">
+                        https://blogs.scientificamerican.com/guest-blog/are-parallel-universes-unscientific-nonsense-insider-tips-for-criticizing-the-multiverse/
+                    </a>
+                </li>
+            </ol>
+            <div class="image-container">
+                <img src="images1/Picture21.jpg" alt="Picture of the sky with visible stars" class="hover-img">
+                <div class="image-overlay">
+                    <p class="image-description">A vast starry sky, representing the infinite possibilities of the
+                        universe.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer> </footer>
+
+</body>
+
+</html>
