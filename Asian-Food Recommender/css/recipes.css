@@ -1,0 +1,71 @@
+/* Shared styles for breakfast/lunch/dinner/dessert pages */
+
+body.subpage {
+    padding: 2rem  3rem;
+}
+
+.subpage header {
+    padding-bottom: 1rem;
+    border-bottom: solid var(--red);
+}
+
+.subpage .homePage {
+    color: var(--gold);
+    text-decoration: none;;
+}
+
+.subpage .homePage:hover,
+.subpage .homePage:focus-visible {
+    text-decoration: underline;
+}
+
+.subpage h1 {
+    margin: auto;
+    font-size: auto;
+}
+
+.subpage footer {
+    margin-top: 3rem;
+    padding-top: 1rem;
+    border-top: var(--footer-border);
+}
+
+.image-box {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.image-box-color {
+    border: var(--card-border);
+}
+
+.image-box-color h2 {
+    margin: auto;
+    padding: 1rem 1rem 1rem;
+    color: var(--gold);
+    font-size: 2rem
+}
+
+.image-box-color img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.image-description {
+    margin: auto;
+    font-style: italic;
+}
+
+.image-box-color h3 {
+    margin: 1rem 1rem 1rem;
+    text-transform: uppercase;
+}
+
+.food-steps {
+    margin: auto;
+}
+
+.food-steps li {
+    margin-bottom: 1rem;
+}

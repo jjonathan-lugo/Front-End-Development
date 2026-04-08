@@ -1,0 +1,67 @@
+/* Shared theme + base styles */
+
+:root {
+    --red: #c41e3a;
+    --red-dark: #8b1428;
+    --black: #0d0d0d;
+    --black-soft: #1a1a1a;
+    --gold: #b3931f;
+    --text: #ffffff;
+    --container-wide: 60rem;
+    --container-narrow: 40rem;
+    --card-border: solid rgba(232, 197, 71, 0.28);
+    --footer-border: solid rgba(255, 255, 255, 0.2);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.lightTheme {
+    --black: #f0ebe3;
+    --black-soft: #ffffff;
+    --paper: #2a2520;
+    --text: #2a2520;
+    --shadow: 0 10px 20px rgba(255, 0, 0, 0);
+    --surface: rgba(0, 0, 0, 0.12);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: auto;
+    background-image:
+        radial-gradient(ellipse 120% 80% at 50% -20%, rgba(196, 30, 58, 0.35), transparent 50%),
+        linear-gradient(180deg, var(--black-soft) 0%, var(--black) 40%, #0a0a0a 100%);
+    color: var(--text);
+    line-height: 2;
+}
+
+.lightTheme body {
+    background-image:
+        radial-gradient(ellipse 120% 80% at 50% -20%, rgba(196, 30, 58, 0.2), transparent 50%),
+        linear-gradient(180deg, #fff 0%, var(--black) 40%, #e8e3db 100%);
+}
+
+main {
+    display: block;
+    max-width: var(--container-wide);
+    margin: auto;
+}
+
+nav a {
+    color: var(--gold);
+    text-decoration: none;
+    font-weight: 600;
+    padding: 0.5rem 0.65rem;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    transition: background 0.2s, border-color 0.2s, color 0.2s;
+}
+
+nav a:hover,
+nav a:focus-visible
+{
+    background: rgba(196, 30, 58, 0.25);
+    border-color: rgba(232, 197, 71, 0.4);
+    outline: none;
+}
