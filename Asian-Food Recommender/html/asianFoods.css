@@ -1,0 +1,464 @@
+/* Asian Foodex homepage styles */
+@import url("./base.css");
+
+/* Header */
+.header {
+    text-align: center;
+    padding: 1em 1rem 1rem;
+    border-bottom: solid var(--red);
+    background: linear-gradient(180deg, rgba(196, 30, 58, 0.15) 0%, transparent 100%);
+
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.logo {
+    font-size: 2rem;
+}
+
+/* Gridded navigation */
+.nav {
+    display: grid;
+    margin: auto;
+    text-align: center;
+}
+
+@media (min-width: 380px) {
+    .nav {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (min-width: 520px) {
+    .nav {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        max-width: 42rem;
+    }
+}
+
+@media (min-width: 720px) {
+    .nav {
+        grid-template-columns: repeat(6, minmax(0, 1fr));
+        max-width: 52rem;
+    }
+}
+
+.toggleTheme {
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--paper);
+    background: linear-gradient(180deg, var(--red-dark), var(--red));
+    border: solid var(--gold);
+}
+
+.toggleTheme:hover,
+.toggleTheme:focus-visible {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(196, 30, 58, 0.45);
+    outline: none;
+}
+
+/* paragraph under all titles */
+.section {
+    text-align: center;
+    margin: 0 0 2rem;
+}
+
+/* Intro */
+.intro-heading {
+    margin: auto;
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--gold);
+}
+
+.intro p {
+    margin: 0;
+    color: var(--text);
+    font-size: 1.05rem;
+}
+
+/* Slideshow */
+.slideshow-box {
+    padding: 1rem 1rem 3rem;
+    max-width: var(--container-wide);
+    margin: auto;
+}
+
+.conveyor-frame {
+    position: relative;
+    border: solid var(--gold);
+    overflow: hidden;
+}
+
+.conveyor-belt {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 36px;
+    background: repeating-linear-gradient(90deg,
+            var(--black-soft) 0,
+            var(--black-soft) 8px,
+            var(--red-dark) 8px,
+            var(--red-dark) 10px);
+    border-bottom: solid var(--gold);
+    z-index: 2;
+    animation: belt-move 10s linear infinite;
+}
+
+.food-train {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    animation: food-move 5s linear infinite;
+}
+
+@keyframes food-move {
+    0% {
+        left: -5%;
+    }
+    100% {
+        left: 93%;
+    }
+}
+
+/* slideshow image position*/
+.slideshow{
+    position: relative;
+    aspect-ratio: 3 / 2;
+}
+
+/* slideshow image movement */
+.slideshow .slide {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
+.slideshow .slide.active {
+    opacity: 1;
+    z-index: 1;
+}
+
+/* slideshow image fit */
+.slideshow .slide img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* dot navigation position */
+.slideshow-dots {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+/* dot design */
+.slideshow-dots button {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: none;
+    background: var(--text);
+    padding: 0;
+}
+
+
+.slideshow-dots button:hover,
+.slideshow-dots button:focus-visible {
+    background: var(--gold);
+}
+
+.slideshow-dots button[aria-selected="true"] {
+    background: var(--red);
+    box-shadow: 0 0 0 2px var(--gold);
+}
+
+/* Second gridded section: regional highlights */
+.highlights-header h2 {
+    margin: auto;
+    font-size: 2rem;
+    text-align: center;
+}
+
+/* image size readjust */
+.highlights-grid {
+    display: grid;
+    gap: 1rem;
+}
+
+@media (min-width: 700px) {
+    .highlights-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+
+/* card border */
+.highlight-card {
+    border: var(--card-border);
+    overflow: hidden
+}
+
+.highlight-card:hover {
+    border-color: var(--gold);
+    transform: translateY(-3px);
+}
+
+.highlight-card img {
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* card header description */
+.highlight-card h3 {
+    margin: auto;
+    padding: 1rem 1rem 0rem;
+}
+
+/* card text description */
+.highlight-card p {
+    margin: auto;
+    padding: 1rem 1rem 0rem;
+}
+
+/* highlight card links */
+.highlight-card a {
+    color: var(--gold);
+    font-weight: 600;
+}
+
+/* pick meal title */
+.pickMeal-title h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+/* conveyor belt in the middle */
+.conveyor-middle {
+    position: relative;
+}
+
+.conveyor-track-movement {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    height: 12px;
+    transform: translateY(-50%);
+    background: repeating-linear-gradient(90deg,
+            var(--black) 0,
+            var(--black) 12px,
+            var(--red-dark) 12px,
+            var(--red-dark) 14px);
+    animation: belt-move 10s linear infinite;
+}
+
+@keyframes belt-move {
+    0% {
+        background-position: 0;
+    }
+
+    100% {
+        background-position: 200px;
+    }
+}
+
+.meal-images-position{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+@media (max-width: 640px) {
+    .meal-images-position{
+        grid-template-columns: 1fr;
+    }
+}
+
+/* the images border and text */
+.meal-card-images {
+    position: relative;
+    border: 3px solid var(--red-dark);
+    color: inherit;
+}
+
+.meal-card-images:hover,
+.meal-card-images:focus-visible {
+    border-color: var(--gold);
+    transform: translateY(-4px);
+}
+
+/* images re-size */
+.meal-card-images img {
+    width: 100%;
+    object-fit: cover;
+    vertical-align: middle;
+}
+
+/* image titles */
+.meal-card-title {
+    position: absolute;
+    bottom: 0; /*text down*/
+    left: 0; /*text left*/
+    right: 0; /*length of white shade*/
+    padding: 0rem 1rem;
+    background: linear-gradient(transparent, rgba(255, 255, 255, 0.92));
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+/* text when hover */
+.meal-card-overlay {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    background: rgba(196, 30, 58, 0.88);
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
+.meal-card-images:hover .meal-card-overlay,
+.meal-card-images:focus-visible .meal-card-overlay {
+    opacity: 1;
+}
+
+/* design of overlay text/position */
+.meal-card-desc {
+    font-size: 2rem;
+    text-align: center;
+}
+
+/* kitchen tips interaction */
+.tips-section {
+    max-width: var(--container-narrow);
+    margin: auto;
+}
+
+/* kitchen tips title */
+.tips-section h2 {
+    margin: 0 1rem;
+    font-size: 3rem;
+    color: var(--paper);
+    text-align: center;
+}
+
+/* kitchen tips design */
+.tips-trigger-design {
+    width: 100%;
+    padding: 1rem 1rem;
+    text-align: left;
+    font-size: 1rem;
+    font-family: inherit;
+    font-weight: 600;
+    color: var(--paper);
+    background: rgba(196, 30, 58, 0.15);
+    display: flex;
+    justify-content: space-between;
+}
+
+.tips-trigger-design::after {
+    content: "+";
+    font-size: 1.25rem;
+    color: var(--gold);
+}
+
+/* change color when clicked */
+.tips-trigger-design[aria-expanded="true"] {
+    background: rgba(196, 30, 58, 0.35);
+}
+
+/* change color when hover */
+.tips-trigger-design:hover,
+.tips-trigger-design:focus-visible {
+    background: rgba(196, 30, 58, 0.28);
+}
+
+.tips-panel-dropdown-description {
+    padding: 0 1rem 1rem;
+}
+
+.tips-panel-dropdown-description p {
+    margin: auto;
+    color: var(--text);
+    font-size: 1rem;
+}
+
+.tips-panel-dropdown-description[hidden] {
+    display: none;
+}
+
+/* Recommendations */
+.recommendations-alignment {
+    max-width: var(--container-narrow);
+    margin: 0 auto;
+}
+
+/* title alignment */
+.recommendations-alignment h2 {
+    margin: 2rem 0;
+    font-size: 2rem;
+    color: var(--gold);
+    border-left: 4px solid var(--red);
+    padding-left: 0.25rem;
+}
+
+/* list alignment */
+.rec-list-alignment {
+    margin: auto;
+    padding-left: 1rem;
+}
+
+/* list spacing */
+.rec-list li {
+    margin-bottom: 0.5rem;
+}
+
+/* Footer loop */
+.site-footer {
+    border-top: 2px solid var(--red-dark);
+    background: var(--black-soft);
+}
+
+/* text spacing */
+.loop-inner {
+    display: flex;
+    gap: 2rem;
+    animation: loop 5s linear infinite;
+}
+
+/* text design */
+.loop-inner span {
+    color: var(--gold);
+    font-weight: 600;
+    white-space: nowrap;
+    text-transform: uppercase;
+}
+
+@keyframes loop {
+    0% {
+        transform: translateX();
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.footer {
+    margin: 1rem 1rem;
+    text-align: center;
+    font-size:1rem;
+}
